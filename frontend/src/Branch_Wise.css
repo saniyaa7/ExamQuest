@@ -1,0 +1,71 @@
+
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  color: black !important;
+  font-size: 18px;
+  font-weight:100;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out;
+  font-family: 'Arial', sans-serif; /* Replace 'Arial' with your preferred font */
+}
+
+.navbar-brand:hover {
+  color: #e9ecef;
+}
+
+.navbar-brand .icon {
+  margin-right: 5px;
+}
+/* body{
+  background-color: rgb(214, 229, 249);;
+} */
+*
+
+.hoverable {
+  transition: transform 0.4s, box-shadow 0.5s;
+  transform: scale(1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.hoverable:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(88,54,114,1);
+  background-color: #f8f8f8;
+  border-color: #ccc;
+}
+
+.hoverable h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.hoverable:hover h2 {
+  color: #555;
+}
+
+  
+  .card
+{
+    /* border: 0 0 1px 1px solid black; */
+    height: 230px !important;
+    width: 240px;
+    /* background-color:   #4682b4!important; */
+    background: linear-gradient(45deg,#2E3192,#1Bffff);
+    align-items: center;
+    /* box-shadow: 2px 2px 2px 2px rgb(186, 245, 245) */
+}
+
+.card:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px  rgb(214, 229, 249);;;
+    cursor: pointer;
+    border:2px solid;    
+}

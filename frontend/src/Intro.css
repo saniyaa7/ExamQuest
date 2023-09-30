@@ -1,0 +1,39 @@
+.image {
+  height: 90px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  right:20px;
+}
+
+.name {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  margin: 0; /* Remove default margin */
+  display: flex;
+  align-items: center; /* Align text vertically */
+  justify-content: center; /* Align text horizontally */
+}
+.project{
+  font-weight: bold;
+ padding: 20px;
+  font-size: 35px;
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  margin: 0; /* Remove default margin */
+  display: flex;
+  align-items: center; /* Align text vertically */
+  justify-content: center; /* Align text horizontally */
+}
+
+
+
+.subname {
+  color: white !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  margin-top: -35px;/* Adjust the margin as needed */
+  font-size: 18px; /* Adjust the font size as needed */
+}

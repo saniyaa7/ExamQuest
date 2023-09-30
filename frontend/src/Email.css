@@ -1,0 +1,38 @@
+.email-container {
+    background: rgb(214, 229, 249);;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-heading {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    width: 500px;
+  }
+  
+  .form-button {
+    width: 40%;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .form-button:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .form-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
